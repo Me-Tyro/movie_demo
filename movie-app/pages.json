@@ -1,0 +1,70 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/movie/movie",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/episode/episode",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/varietyShow/varietyShow",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/cartoon/cartoon",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/about/about",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小晨影院",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [{
+      "pagePath": "pages/movie/movie",
+      "text": "电影",
+      "iconPath": "static/images/icon1_on.png",
+      "selectedIconPath": "static/images/icon1_on.png"
+    }, {
+      "pagePath": "pages/episode/episode",
+      "text": "剧集",
+      "iconPath": "static/images/icon2.png",
+      "selectedIconPath": "static/images/icon2.png"
+    }, {
+      "pagePath": "pages/varietyShow/varietyShow",
+      "text": "综艺",
+      "iconPath": "static/images/icon3.png",
+      "selectedIconPath": "static/images/icon3.png"
+    }, {
+      "pagePath": "pages/cartoon/cartoon",
+      "text": "动漫",
+      "iconPath": "static/images/icon4.png",
+      "selectedIconPath": "static/images/icon4.png"
+    }, {
+      "pagePath": "pages/about/about",
+      "text": "App",
+      "iconPath": "static/images/icon5.png",
+      "selectedIconPath": "static/images/icon5.png"
+    }]
+  }
+}
